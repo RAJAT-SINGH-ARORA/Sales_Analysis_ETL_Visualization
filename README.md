@@ -56,11 +56,24 @@ Key Highlights:
 Well-structured analysis for decision-making support.
 
 
+---------------------------------------------------------------------------------------------------------------------
 
+# Project Structure
 
-
-
-
-
-## Project Structure
+📦 Sales Analysis Project
+├── 📂 data
+│   ├── orders.csv.zip           # Raw dataset(.zip file) downloaded from Kaggle
+│   ├── orders.csv               # Unzipped version of the compressed raw dataset
+│   └── transformed_data.csv     # Transformed dataset after data cleaning and processing
+│
+├── 📂 notebooks
+│   └── Sales_Analysis.ipynb     # Jupyter Notebook for ETL and Data Transformation
+│
+├── 📂 sql_queries
+│   └── Sales_Analysis.sql       # SQL queries for data analysis
+│
+├── 📂 power_bi_reports
+│   └── Sales_Analysis.pbix      # Power BI Dashboard with multiple analysis pages
+│
+├── 📜 README.md                 # Project documentation and overview
 
